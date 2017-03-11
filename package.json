@@ -1,0 +1,35 @@
+{
+  "name": "rdfmodule",
+  "version": "0.0.0",
+  "description": "RDF DOM assembler library",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aristov/rdfmodule.git"
+  },
+  "keywords": [
+    "RDF",
+    "RDFS",
+    "RDFa",
+    "OWL",
+    "XML",
+    "XML",
+    "Schema",
+    "JavaScript",
+    "DOM",
+    "DOM",
+    "assembler"
+  ],
+  "author": "Vyacheslav Aristov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aristov/rdfmodule/issues"
+  },
+  "homepage": "https://github.com/aristov/rdfmodule#readme",
+  "dependencies": {
+    "dommodule": "aristov/dommodule"
+  }
+}
