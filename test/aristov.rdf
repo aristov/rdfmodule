@@ -1,0 +1,19 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:PersonalProfileDocument rdf:about="">
+        <foaf:maker rdf:resource="#me"/>
+        <foaf:primaryTopic rdf:resource="#me"/>
+    </foaf:PersonalProfileDocument>
+    <foaf:Person rdf:ID="me">
+        <foaf:name>Vyacheslav Aristov</foaf:name>
+        <foaf:givenname>Vyacheslav</foaf:givenname>
+        <foaf:family_name>Aristov</foaf:family_name>
+        <foaf:nick>ari</foaf:nick>
+        <foaf:mbox rdf:resource="mailto:vv.aristov@gmail.com"/>
+        <foaf:homepage rdf:resource="github.com/aristov"/>
+        <foaf:phone rdf:resource="tel:+7-903-730-7615"/>
+        <foaf:workplaceHomepage rdf:resource="fusion1905.ru"/>
+        <foaf:workInfoHomepage rdf:resource="vk.com/bazafusion"/>
+        <foaf:schoolHomepage rdf:resource="bmstu.ru"/>
+    </foaf:Person>
+</rdf:RDF>
