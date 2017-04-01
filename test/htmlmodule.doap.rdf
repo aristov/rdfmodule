@@ -1,0 +1,23 @@
+<Project xmlns="http://usefulinc.com/ns/doap#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <name>htmlmodule</name>
+    <shortdesc>HTML DOM assembler</shortdesc>
+    <homepage rdf:resource="http://aristov.github.io/htmlmodule"/>
+    <programming-language>JavaScript</programming-language>
+    <license rdf:resource="http://usefulinc.com/doap/licenses/mit"/>
+    <maintainer>
+        <foaf:Person>
+            <foaf:name>Vyacheslav Aristov</foaf:name>
+            <foaf:homepage rdf:resource="http://github.com/aristov"/>
+            <foaf:mbox>vv.aristov@gmail.com</foaf:mbox>
+        </foaf:Person>
+    </maintainer>
+    <developer>
+        <foaf:Person>
+            <foaf:name>Vyacheslav Aristov</foaf:name>
+            <foaf:homepage rdf:resource="http://github.com/aristov"/>
+            <foaf:mbox_sha1sum>a617635730a5575c05100b84e28cff768f0e8a8f</foaf:mbox_sha1sum>
+        </foaf:Person>
+    </developer>
+</Project>

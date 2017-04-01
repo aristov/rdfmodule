@@ -30,6 +30,9 @@
   },
   "homepage": "https://github.com/aristov/rdfmodule#readme",
   "dependencies": {
-    "dommodule": "aristov/dommodule"
+    "dommodule": "aristov/dommodule",
+    "n3": "^0.9.1",
+    "rdf": "^3.0.1",
+    "rdflib": "^0.15.0"
   }
 }

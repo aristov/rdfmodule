@@ -1,0 +1,212 @@
+http://www.w3.org/1999/02/22-rdf-syntax-ns#
+http://www.w3.org/2000/01/rdf-schema#
+
+DCMI — Dubline Core Metadata Initiative
+    http://dublincore.org/documents/dcmi-terms/
+Namespaces:
+    http://purl.org/dc/terms/ — DCMI terms
+    http://purl.org/dc/elements/1.1/ — DCMI elements
+    http://purl.org/dc/dcmitype/ — DCMI Type Vocabulary
+    http://purl.org/dc/dcam/ — DCMI Abstract Model
+
+FOAF — Friend of a Friend
+    http://xmlns.com/foaf/spec/
+Namespaces:
+    http://xmlns.com/foaf/0.1/
+
+WOT — Web Of Trust
+    http://xmlns.com/wot/0.1/
+Namespaces:
+    http://xmlns.com/wot/0.1/
+
+SIOC — Semantically-Interlinked Online Communities
+    http://rdfs.org/sioc/spec/
+Namespaces:
+    http://rdfs.org/sioc/ns# - SIOC Core Ontology Namespace
+    http://rdfs.org/sioc/access# - SIOC Access Ontology Module Namespace
+    http://rdfs.org/sioc/types# - SIOC Types Ontology Module Namespace
+    http://rdfs.org/sioc/services# - SIOC Services Ontology Module Namespace
+
+SCOT — Social Semantic Cloud of Tags
+    http://rdfs.org/scot/spec/
+Namespaces:
+    http://rdfs.org/scot/ns#
+
+SKOS — Simple Knowledge Organization System
+    https://www.w3.org/TR/skos-reference/
+Namespaces:
+    http://www.w3.org/2004/02/skos/core#
+
+DOAP — Description of a Project
+    https://github.com/ewilderj/doap/wiki
+Namespaces:
+    http://usefulinc.com/ns/doap#
+
+ORG — The Organization Ontology
+    https://www.w3.org/TR/vocab-org/
+Namespaces:
+    http://www.w3.org/ns/org#
+
+DCAT — Data Catalog Vocabulary
+    https://www.w3.org/TR/vocab-dcat/
+Namespaces:
+    http://www.w3.org/ns/dcat#
+
+PROV — Provenance
+    https://www.w3.org/TR/2013/REC-prov-o-20130430/
+Namespaces:
+    http://www.w3.org/ns/prov#
+
+OWL-Time — Time ontology
+    https://www.w3.org/TR/owl-time
+Namespaces:
+    http://www.w3.org/2006/time#
+
+VCARD — for describing People and Organizations
+    https://www.w3.org/TR/vcard-rdf/
+Namespaces:
+    http://www.w3.org/2006/vcard/ns#
+
+OWL-MO — Music ontology
+    http://www.musicontology.com
+Namespaces:
+    http://purl.org/ontology/mo/
+
+OWL-TL — The Timeline Ontology
+    http://motools.sourceforge.net/timeline/timeline.html
+Namespaces:
+    http://purl.org/NET/c4dm/timeline.owl#
+
+OWL-Event — The event ontology
+    http://motools.sourceforge.net/event/event.html
+Namespaces:
+	http://purl.org/NET/c4dm/event.owl#
+
+VoID — Vocabulary of Interlinked Datasets
+    http://vocab.deri.ie/void
+Namespaces:
+    http://rdfs.org/ns/void#
+
+ROV — Registered Organization Vocabulary
+    https://www.w3.org/TR/2013/NOTE-vocab-regorg-20130801/
+Namespaces:
+    http://www.w3.org/ns/regorg#
+
+ADMS — Asset Description Metadata Schema
+    https://www.w3.org/TR/2013/NOTE-vocab-adms-20130801/
+Namespaces:
+    http://www.w3.org/ns/adms#
+
+QB — The Data Cube Vocabulary
+    https://www.w3.org/TR/2014/REC-vocab-data-cube-20140116/
+Namespaces:
+    http://purl.org/linked-data/cube#
+
+SCOVO — The Statistical Core Vocabulary
+    http://sw.joanneum.at/scovo/schema.html
+Namespaces:
+    http://purl.org/NET/scovo#
+
+OA — Web Annotation Vocabulary
+    https://www.w3.org/TR/annotation-vocab/
+Namespaces:
+    http://www.w3.org/ns/oa#
+
+SCHEMA — Schema.org
+    http://schema.org/
+Namespaces:
+    http://schema.org/
+
+CSVW — Metadata Vocabulary for Tabular Data
+    https://www.w3.org/TR/tabular-metadata/
+    https://www.w3.org/TR/csv2rdf/
+    https://www.w3.org/TR/csvw-html/
+Namespaces:
+    https://www.w3.org/ns/csvw#
+
+LDP — Linked Data Platform
+    https://www.w3.org/TR/ldp/
+Namespaces:
+    http://www.w3.org/ns/ldp#
+
+Activity Vocabulary
+    https://www.w3.org/TR/activitystreams-vocabulary
+Namespaces:
+    https://www.w3.org/ns/activitystreams#
+
+GR — Good Relations (The Web Vocabulary for E-Commerce)
+    http://www.heppnetz.de/projects/goodrelations/
+Namespaces:
+    http://purl.org/goodrelations/v1#
+
+Studio Ontology Framework
+    http://ismir2011.ismir.net/papers/PS3-20.pdf
+    http://isophonics.net
+    http://c4dm.eecs.qmul.ac.uk
+
+HYDRA — hydra Core Vocabulary
+    http://www.hydra-cg.com/spec/latest/core/
+Namespaces:
+    http://www.hydra-cg.com/
+
+ODRL — The Open Digital Rights Language
+    https://www.w3.org/TR/2017/WD-odrl-vocab-20170223/
+    https://www.w3.org/TR/2017/WD-odrl-model-20170223/
+Namespaces:
+    http://www.w3.org/ns/odrl/2/
+
+Ontology for Media Resources
+    https://www.w3.org/TR/mediaont-10/
+Namespaces:
+    http://www.w3.org/ns/ma-ont#
+
+GLDP — Terms for describing people
+    https://www.w3.org/TR/2012/WD-vocab-people-20120405/
+Namespaces:
+    http://www.w3.org/ns/people#
+
+RELATIONSHIP: A vocabulary for describing relationships between people
+    http://vocab.org/relationship/
+Namespaces:
+    http://purl.org/vocab/relationship/
+
+Buildings and Rooms Vocabulary
+    http://vocab.deri.ie/rooms
+Namespaces:
+    http://vocab.deri.ie/rooms#
+
+Accommodation Ontology
+    http://ontologies.sti-innsbruck.at/acco/ns.html
+Namespaces:
+    http://purl.org/acco/ns#
+
+----------------------------------------------------------------
+
+https://github.com/motools
+http://vocab.org
+
+----------------------------------------------------------------
+
+https://www.w3.org/TR/rdf11-concepts/
+https://www.w3.org/TR/rdf-syntax-grammar/
+https://www.w3.org/TR/rdf-schema/
+https://www.w3.org/TR/owl-quick-reference/
+https://www.w3.org/TR/2012/REC-owl2-primer-20121211/
+https://www.w3.org/wiki/WebAccessControl#Vocabulary
+
+https://www.obitko.com/tutorials/ontologies-semantic-web/modularization-of-ontologies.html
+http://spinrdf.org/
+http://ontologydesignpatterns.org/
+
+https://www.w3.org/TR/2012/WD-xforms20-20120807/
+
+http://prefix.cc
+
+http://referaat.cs.utwente.nl/conference/17/paper/7345/developing-an-ontology-for-the-online-travelling-domain.pdf
+https://www.fruct.org/sites/default/files/files/conference14/Food%20Product%20Ontology_%20Initial%20Implementation%20of%20a%20Vocabulary%20for%20Describing%20Food%20Products.pdf
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Rent Ontology?
+
+Booking Ontology?
