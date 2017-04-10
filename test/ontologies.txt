@@ -205,6 +205,12 @@ http://prefix.cc
 http://referaat.cs.utwente.nl/conference/17/paper/7345/developing-an-ontology-for-the-online-travelling-domain.pdf
 https://www.fruct.org/sites/default/files/files/conference14/Food%20Product%20Ontology_%20Initial%20Implementation%20of%20a%20Vocabulary%20for%20Describing%20Food%20Products.pdf
 
+http://kakapo.dcs.qmul.ac.uk/ontology/taxonomy-a/
+http://kakapo.dcs.qmul.ac.uk/ontology/taxonomy-b/
+
+Music Vocabulary
+http://www.kanzaki.com/ns/music
+
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 Rent Ontology?

@@ -1,4 +1,3 @@
-//const { RDFDocumentAssembler, RDFDOMAssembler } = require('./lib')
 const fs = require('fs')
 const ttl = fs.readFileSync('src/rdf-schema.ttl', 'utf-8')
 
