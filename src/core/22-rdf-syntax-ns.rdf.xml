@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="../stylesheet/rdfs2html.xsl" type="application/xml"?>
+<?xml-stylesheet href="../../../xmldatasheet/test/data/studio.rdf.css"?>
+<!--<?xml-stylesheet href="../stylesheet/rdfs2html.xsl" type="application/xml"?>-->
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xmlns:dc="http://purl.org/dc/elements/1.1/">
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
     <owl:Ontology rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <dc:title>The RDF Concepts Vocabulary (RDF)</dc:title>
         <dc:description>This is the RDF Schema for the RDF vocabulary terms in the RDF Namespace, defined in RDF 1.1 Concepts.</dc:description>
     </owl:Ontology>
 
-    <!--Datatypes-->
+    <xhtml:h2>Datatypes</xhtml:h2>
     <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">
         <rdfs:label>langString</rdfs:label>
         <rdfs:comment>The datatype of language-tagged string values</rdfs:comment>
@@ -39,45 +41,7 @@
         <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/rdf11-concepts/#section-html"/>
     </rdfs:Datatype>
 
-    <!--Classes-->
-    <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
-        <rdfs:label>Property</rdfs:label>
-        <rdfs:comment>The class of RDF properties.</rdfs:comment>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    </rdfs:Class>
-    <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
-        <rdfs:label>Statement</rdfs:label>
-        <rdfs:comment>The class of RDF statements.</rdfs:comment>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    </rdfs:Class>
-    <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">
-        <rdfs:label>List</rdfs:label>
-        <rdfs:comment>The class of RDF Lists.</rdfs:comment>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    </rdfs:Class>
-    <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
-        <rdfs:label>Seq</rdfs:label>
-        <rdfs:comment>The class of ordered containers.</rdfs:comment>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    </rdfs:Class>
-    <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
-        <rdfs:label>Bag</rdfs:label>
-        <rdfs:comment>The class of unordered containers.</rdfs:comment>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    </rdfs:Class>
-    <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt">
-        <rdfs:label>Alt</rdfs:label>
-        <rdfs:comment>The class of containers of alternatives.</rdfs:comment>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
-        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    </rdfs:Class>
-
-    <!--Properties-->
+    <xhtml:h2>Properties</xhtml:h2>
     <rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
         <rdfs:label>type</rdfs:label>
         <rdfs:comment>The subject is an instance of a class.</rdfs:comment>
@@ -128,10 +92,50 @@
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     </rdf:Property>
 
-    <!--Individuals-->
+    <xhtml:h2>Classes</xhtml:h2>
+    <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+        <rdfs:label>Property</rdfs:label>
+        <rdfs:comment>The class of RDF properties.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </rdfs:Class>
+    <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
+        <rdfs:label>Statement</rdfs:label>
+        <rdfs:comment>The class of RDF statements.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </rdfs:Class>
+    <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">
+        <rdfs:label>List</rdfs:label>
+        <rdfs:comment>The class of RDF Lists.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </rdfs:Class>
+    <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
+        <rdfs:label>Seq</rdfs:label>
+        <rdfs:comment>The class of ordered containers.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </rdfs:Class>
+    <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
+        <rdfs:label>Bag</rdfs:label>
+        <rdfs:comment>The class of unordered containers.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </rdfs:Class>
+    <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt">
+        <rdfs:label>Alt</rdfs:label>
+        <rdfs:comment>The class of containers of alternatives.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </rdfs:Class>
+
+    <xhtml:h2>Individuals</xhtml:h2>
     <rdf:List rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil">
         <rdfs:label>nil</rdfs:label>
         <rdfs:comment>The empty list, with no items in it. If the rest of a list is nil then the list has no more items in it.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     </rdf:List>
+
+    <xhtml:script src="../../../xmldatasheet/test/data/studio.rdf.js"/>
 </rdf:RDF>
