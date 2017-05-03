@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="stylesheet/rdfs2html.xsl" type="text/xsl"?>
 <rdf:RDF xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:dcterms="http://purl.org/dc/terms/"

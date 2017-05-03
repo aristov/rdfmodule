@@ -1,7 +1,7 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
-    <!--person-->
+    <!--properties-->
     <foaf:Person>
         <!--stable-->
         <foaf:homepage rdf:resource="https://github.com/aristov"/>
@@ -52,7 +52,7 @@
         <foaf:status/>
     </foaf:Person>
 
-    <!--person-->
+    <!--properties-->
     <foaf:Person>
         <!--stable-->
         <foaf:homepage/>
@@ -110,7 +110,7 @@
         <foaf:status/>
     </foaf:Person>
 
-    <!--other-->
+    <!--classes-->
     <foaf:Agent/>
     <foaf:Document/>
     <foaf:Group/>
@@ -120,7 +120,7 @@
     <foaf:OnlineChatAccount/>
     <foaf:OnlineEcommerceAccount/>
     <foaf:OnlineGamingAccount/>
-    <foaf:Organiztion/>
+    <foaf:Organization/>
     <foaf:PersonalProfileDocument/>
     <foaf:Project/>
 </rdf:RDF>
